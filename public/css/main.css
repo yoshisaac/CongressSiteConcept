@@ -61,12 +61,6 @@ button {
 }
 
 /* top of site */
-.head_bar {
-    padding: 0.25%;
-    border: 20px ridge #FCFCEE;
-    background-color: #FBFBCB;
-}
-
 .title_bar {
     display: block;
     width: 100%;
@@ -75,13 +69,20 @@ button {
     border: double;
     background-color: #A0A0A0;
 }
-
-.page_title {
+.page_title_text {
     position: relative;
-    top: -25px;
+    top: 10px;
     margin: 0;
     padding: 0;
     display: inline;
+    position: absolute;
+    font-size: 50px;
+}
+
+.head_bar {
+    padding: 0.25%;
+    border: 20px ridge #FCFCEE;
+    background-color: #FBFBCB;
 }
 
 .logo {
