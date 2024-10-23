@@ -1,0 +1,67 @@
+@mixin input-box-borders {
+    border-bottom: 3px solid #f4f4f4;
+    border-right: 3px solid #f4f4f4;
+    border-left: 3px solid #848484;
+    border-top: 3px solid #848484;
+}
+
+@mixin button-box-borders {
+    border-top: 3px solid #f4f4f4;
+    border-left: 3px solid #f4f4f4;
+    border-right: 3px solid #848484;
+    border-bottom: 3px solid #848484;
+}
+
+html,
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial';
+}
+
+body {
+    background-image: url('/img/win95.webp');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+/* buttons */
+button {
+    cursor: pointer;
+    
+    &:focus {
+	outline: none;
+    }
+    
+    &:active {
+	@include input-box-borders;
+    }
+}
+
+.home {
+    background-image: url('/img/main_test.png');
+    line-height: 2.5;
+    width: 90px;
+    padding: 44px 0;
+    /*heigh: 90px;*/
+}
+
+/* top of site */
+.head_bar {
+    padding: 0.25%;
+    border: 20px ridge #FCFCEE;
+    background-color: #FBFBCB;
+}
+
+.title_bar {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: double;
+    background-color: #A0A0A0;
+}

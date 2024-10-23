@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.21.1",
+        "http": "^0.0.1-security"
+    },
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "name": "cac",
+    "version": "1.0.0",
+    "description": "Website For Congress",
+    "main": "server.js",
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
+    "author": "Dr_Coomer",
+    "license": "ISC"
+}
