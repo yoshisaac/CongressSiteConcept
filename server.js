@@ -4,9 +4,15 @@
 const express = require('express');
 const app = express()
 
-//constants
+//constants server
+/*
 const hostname = '192.168.0.26';
 const port = 443;
+*/
+
+//constants testing
+const hostname = '127.0.0.1';
+const port = 3000;
 
 //static files
 app.use(express.static('public'));
