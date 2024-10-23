@@ -5,7 +5,7 @@ const express = require('express');
 const app = express()
 
 //constants
-const hostname = '10.92.1.167';
+const hostname = '192.168.0.26';
 const port = 3000;
 
 //static files
