@@ -6,7 +6,7 @@ const app = express()
 
 //constants
 const hostname = '192.168.0.26';
-const port = 3000;
+const port = 443;
 
 //static files
 app.use(express.static('public'));
