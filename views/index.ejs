@@ -4,17 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HTML5 Boilerplate</title>
+  <title>PINE</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <div class="title_bar">
-    logo
+    <img class="logo" src="img/logo_test.png">
   </div>
-  <script src="scripts.js"></script>
+  <script src="js/title_redirect.js"></script>
   <div class="head_bar" >
-    <button class="home"></button>
+    <button class="home" onclick="redirect('/')"></button>
+    <button class="about" onclick="redirect('/about')"></button>
   </div>
 
   <!-- Dynamic stuff here -->

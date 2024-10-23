@@ -29,6 +29,8 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
 /* buttons */
 button {
     cursor: pointer;
@@ -50,6 +52,14 @@ button {
     /*heigh: 90px;*/
 }
 
+.about {
+    background-image: url('/img/about_win95.png');
+    line-height: 2.5;
+    width: 90px;
+    padding: 44px 0;
+    /*heigh: 90px;*/    
+}
+
 /* top of site */
 .head_bar {
     padding: 0.25%;
@@ -64,4 +74,16 @@ button {
     padding: 0;
     border: double;
     background-color: #A0A0A0;
+}
+
+.page_title {
+    position: relative;
+    top: -25px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.logo {
+    display: inline
 }
