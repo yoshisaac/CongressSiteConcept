@@ -1,17 +1,29 @@
 # Site
-A site concept.
+Visual template for a site.
 
 # Usage
-
 ### Installing dependencies
+
+System dependencies.
+```console
+#debian/ubuntu
+$ sudo apt install npm nodejs git
+```
+
+Node dependencies.
 ```console
 $ npm install express ejs nodemon
+```
+
+### Downloading the website
+```console
+$ cd ~
+$ git clone https://github.com/yoshisaac/CongressSiteConcept.git
+$ cd CongressSiteConcept/
 ```
 
 ### Starting web-server
 ```console
 $ npm start
-...
-Server running at http://127.0.0.1:3000/
 ...
 ```
