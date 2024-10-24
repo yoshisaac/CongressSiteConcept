@@ -64,7 +64,6 @@ button {
 /* top of site */
 .title_bar {
     display: block;
-    width: 100%;
     margin: 0;
     padding: 0;
     border: double;
